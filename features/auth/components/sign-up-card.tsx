@@ -12,9 +12,6 @@ import { Form,FormControl,FormField,FormItem,FormMessage } from "@/components/ui
 import { registerSchema } from "../schemas"
 import { useRegister } from "../api/use-register"
 
-
-
-
 export const SignUpCard = () => {
     const {mutate} = useRegister();
 
